@@ -142,6 +142,15 @@ body {
     width: 100%;
     padding-right: 0;
   }
+
+  .funding-list li {
+    display: inline;
+  }
+
+  .funding-list li:nth-of-type(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -152,5 +161,10 @@ body {
   .news-grid-container {
     grid-template-columns: repeat(4, minmax(auto, 1fr));
     grid-template-rows: repeat(2, minmax(auto, 1fr));
+  }
+
+  .funding-title-container {
+    display: flex;
+    justify-content: space-between;
   }
 }
