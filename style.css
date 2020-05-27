@@ -3,21 +3,20 @@ body {
   height: 6000px;
 }
 
-.nav-767{
+.nav-767 {
   position: fixed;
   display: block;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 80px;
 }
+
 .nav-container-767 {
   background-color: aqua;
   display: flex;
   justify-content: space-between;
   height: 50%;
 }
-
-
 
 .nav-container-bottom {
   background-color: yellow;
@@ -36,9 +35,8 @@ body {
   background-color: mediumaquamarine;
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
-  grid-gap:10px;
+  grid-gap: 10px;
   width: 98%;
-  
 }
 
 .main-grid-container img {
@@ -46,13 +44,42 @@ body {
   width: 100%;
 }
 
+.parent-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news-title-container {
+  margin-top: 100px;
+}
+
+.news-title-container h2 {
+  font-size: large;
+}
 
 .news-grid-container {
-  grid-template-rows: repeat(8, auto);
+  display: grid;
+  gap: 14px;
+  grid-template-rows: repeat(8, minmax(auto, 1fr));
+  /* background-color: black; */
+  height: auto;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.news-grid-items {
+  /* background-color: red; */
+  height: 100%;
+}
+
+.news-grid-container img {
+  height: 80px;
+  width: auto;
+  float: left;
+  padding-right: 18px;
 }
 
 @media only screen and (min-width: 768px) {
-
   .nav-767 {
     display: none;
   }
@@ -70,20 +97,21 @@ body {
     float: left;
     height: 60px;
   }
- 
+
   .nav1-container-1023 {
-  height: 25px;
-  display: flex;
-  justify-content: space-between;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
   }
+
   .nav2-container-1023 {
-  height: 35px;
-  display: flex;
-  justify-content: space-between;
- 
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
   }
+
   .nav-container-bottom {
-  height: 20px;
+    height: 20px;
   }
 
   .main-grid-container {
@@ -96,23 +124,33 @@ body {
   }
 
   .main-grid-item2 {
-    grid-area: 1 / 3 ;
-
+    grid-area: 1 / 3;
   }
 
   .main-grid-item3 {
     grid-area: 2 / 3;
-
   }
 
+  .news-grid-container {
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    grid-template-rows: repeat(3, minmax(auto, 1fr));
+    gap: 20px;
+  }
 
-
-
+  .news-grid-container img {
+    height: auto;
+    width: 100%;
+    padding-right: 0;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-
   .logo-nav-1023 {
     display: none;
-  
   }
+
+  .news-grid-container {
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
+  }
+}
