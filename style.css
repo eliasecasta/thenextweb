@@ -1,19 +1,13 @@
 h2 {
   font-family: "Roboto", sans-serif;
-  /* color:white */
 }
 
 h3 {
   font-family: "Arimo", sans-serif;
-  /* color: red; */
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  /* background-color: rgb(170, 159, 180); */
 }
 
 /* NAVIGATION BAR */
@@ -52,7 +46,7 @@ body {
 }
 
 .nav-container-bottom {
-  background-color: #ffdd33;
+  background-color: #fd3;
   height: 50%;
   overflow: hidden;
   padding-left: 10px;
@@ -71,21 +65,15 @@ body {
   margin: 80px auto 0 auto;
   display: grid;
   height: 100%;
-
-  /* background-color: mediumaquamarine; */
-  grid-template-rows: auto auto auto;
+  grid-template-rows: repeat(3, minmax(100px, 1fr));
   grid-template-columns: 100%;
   grid-gap: 10px;
   width: 98%;
-  /* background-color: black; */
 }
 
 .main-grid-container img {
   height: 100%;
   width: 100%;
-  /* opacity: .6; */
-  /* background-color: black; */
-  /* opacity: 2; */
 }
 
 .main-grid-items {
@@ -95,14 +83,14 @@ body {
 .main-grid-text {
   position: absolute;
   bottom: 0;
-  /* left: 15px; */
   color: white;
   padding-top: 50px;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 80%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 80%
+    );
 }
 
 .main-grid-text * {
@@ -117,10 +105,6 @@ body {
 .news-title-container h2 {
   font-size: large;
 }
-
-/* .main-grid-item1 .main-grid-text h2 {
-  font-size: 50px;
-} */
 
 .main-grid-text h3 {
   font-size: 14px;
@@ -139,10 +123,14 @@ body {
 /* NEWS GRID */
 
 .news-title-container {
-  /* margin-top: 100px; */
   width: 95%;
-  /* background-color: blue; */
   margin: 10% auto 4% auto;
+}
+
+.news-title-container h2 {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
 }
 
 .news-grid-container {
@@ -158,6 +146,16 @@ body {
   height: 100%;
 }
 
+.news-grid-items h2 {
+  font-size: 16px;
+}
+
+.news-grid-items p {
+  color: #a9a9a9;
+  line-height: 2em;
+  font-size: 13px;
+}
+
 .news-grid-container img {
   height: 80px;
   width: auto;
@@ -170,6 +168,16 @@ body {
 .funding-title-container {
   width: 95%;
   margin: 0 auto 4% auto;
+  color: #f42;
+  line-height: 2em;
+}
+
+.funding-title {
+  font-size: 28px;
+}
+
+.funding-list {
+  font-size: 14px;
 }
 
 .funding-grid-container {
@@ -201,15 +209,35 @@ body {
   height: 45px;
 }
 
+.orange p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 11px;
+}
+
 .lightorange {
   background-color: #ffebe7;
   height: 59px;
+}
+
+.lightorange p {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 14px;
 }
 
 .beige1 {
   background-color: #fffaf8;
   height: 80px;
   border-bottom: 1px solid #f42;
+}
+
+.beige1 p,
+.beige2 p {
+  font-size: 13px;
+  padding-left: 15px;
+  padding-top: 13px;
 }
 
 .beige2 {
@@ -226,10 +254,15 @@ body {
 .eight-grid-container {
   display: grid;
   grid-template-rows: repeat(8, minmax(auto, 1fr));
-  /* background-color: brown; */
   width: 95%;
   margin: 0 auto;
   gap: 20px;
+}
+
+.eight-grid-items h2 {
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .img-txt-container {
@@ -240,19 +273,32 @@ body {
 .text-main-img {
   position: absolute;
   bottom: 0;
-<<<<<<< HEAD
   width: 100%;
-  /* padding-bottom: 20px; */
-  /* padding-left: 10px; */
-=======
-  padding-bottom: 20px;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 80%
+    );
+}
+
+.text-main-img * {
+  padding-bottom: 10px;
   padding-left: 10px;
->>>>>>> development
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 80%
-  );
+}
+
+.text-main-img h3 {
+  font-size: 14px;
+  color: white;
+}
+
+.text-main-img h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.text-main-img p {
+  color: #a9a9a9;
 }
 
 .img-txt-container img {
@@ -260,15 +306,28 @@ body {
 }
 
 .secondary-container {
-  /* height: 100px; */
-  /* background-color: blue; */
   overflow: auto;
 }
 
 .secondary-container img {
-  /* width: 96px; */
   height: 96px;
   float: right;
+}
+
+.secondary-container {
+  margin-top: 1px;
+  color: #f42;
+  background-color: #fff4f2;
+}
+
+.secondary-container h3 {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.secondary-container h2 {
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 .tertiary-container {
@@ -277,11 +336,12 @@ body {
 
 .tertiary-container li {
   list-style: disc;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #eee;
   line-height: 1.5em;
 }
 
 .tertiary-container a {
+  color: #6b6b6b;
   text-decoration: none;
 }
 
@@ -296,6 +356,13 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  color: #f42;
+  align-items: flex-end;
+}
+
+.deals-title-container h2 {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .deals-grid-container {
@@ -303,14 +370,33 @@ body {
   grid-template-rows: repeat(8, minmax(auto, 1fr));
 }
 
-.deals-grid-items {
-  /* background-color: rosybrown; */
-}
-
 .deals-grid-items img {
   height: 75px;
   float: left;
   margin-right: 13px;
+  padding: 5px;
+}
+
+.deals-grid-items a {
+  text-decoration: none;
+}
+
+.deals-grid-items h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.deals-grid-items span {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.deals-grid-items p {
+  color: #6f6f6f;
+  font-size: 14px;
 }
 
 /* FOOTER  */
@@ -379,7 +465,6 @@ body {
 
   .nav-1023 {
     display: block;
-    /* background-color: wheat; */
     height: 80px;
     width: 100%;
     position: fixed;
@@ -415,6 +500,7 @@ body {
     text-decoration: none;
     padding-right: 10px;
   }
+
   .nav1-container-1023 a:hover {
     color: white;
   }
@@ -492,22 +578,26 @@ body {
     height: auto;
     width: 100%;
     padding-right: 0;
-  }
-
-  .funding-list li {
-    display: inline;
-  }
-
-  .funding-list li:nth-of-type(2) {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    margin-bottom: 7px;
   }
 
   /* FUNDING SECTION  */
 
+  .funding-list li {
+    display: inline;
+    font-size: 16px;
+    padding: 0 8px;
+  }
+
+  .funding-list li:nth-of-type(2) {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+  }
+
   .funding-grid-container {
     grid-template-columns: repeat(3, auto);
   }
+
   /* 8 Grid Items  */
 
   .eight-grid-container {
