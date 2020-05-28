@@ -1,5 +1,19 @@
+h2 {
+  font-family: "Roboto", sans-serif;
+  /* color:white */
+}
+
+h3 {
+  font-family: "Arimo", sans-serif;
+  /* color: red; */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  background-color: rgb(170, 159, 180);
+  /* background-color: rgb(170, 159, 180); */
 }
 
 /* NAVIGATION BAR */
@@ -14,7 +28,7 @@ body {
 }
 
 .nav-container-767 {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   height: 50%;
@@ -37,7 +51,7 @@ body {
   margin: 80px auto 0 auto;
   display: grid;
   height: 100%;
-  background-color: mediumaquamarine;
+  /* background-color: mediumaquamarine; */
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   grid-gap: 10px;
@@ -49,6 +63,38 @@ body {
   width: 100%;
 }
 
+.main-grid-items {
+  position: relative;
+}
+
+.main-grid-text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.main-grid-items h2 {
+  font-size: 25px;
+}
+
+.news-title-container h2 {
+  font-size: large;
+}
+
+.main-grid-item1 .main-grid-text h2 {
+  font-size: 50px;
+}
+
+.main-grid-text h3 {
+  font-size: 14px;
+}
+
+.main-grid-text p {
+  font-size: 12px;
+  color: #aaa;
+}
+
 .parent-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -57,11 +103,10 @@ body {
 /* NEWS GRID */
 
 .news-title-container {
-  margin-top: 100px;
-}
-
-.news-title-container h2 {
-  font-size: large;
+  /* margin-top: 100px; */
+  width: 95%;
+  /* background-color: blue; */
+  margin: 10% auto 4% auto;
 }
 
 .news-grid-container {
@@ -70,7 +115,7 @@ body {
   grid-template-rows: repeat(8, minmax(auto, 1fr));
   height: auto;
   width: 95%;
-  margin: 0 auto;
+  margin: 0 auto 5% auto;
 }
 
 .news-grid-items {
@@ -85,6 +130,11 @@ body {
 }
 
 /* FUNDING SECTION  */
+
+.funding-title-container {
+  width: 95%;
+  margin: 0 auto 4% auto;
+}
 
 .funding-grid-container {
   display: grid;
@@ -140,7 +190,7 @@ body {
 .eight-grid-container {
   display: grid;
   grid-template-rows: repeat(8, minmax(auto, 1fr));
-  background-color: brown;
+  /* background-color: brown; */
   width: 95%;
   margin: 0 auto;
   gap: 20px;
@@ -148,6 +198,7 @@ body {
 
 .img-txt-container {
   position: relative;
+  margin-top: 20px;
 }
 
 .text-main-img {
@@ -163,7 +214,7 @@ body {
 
 .secondary-container {
   /* height: 100px; */
-  background-color: blue;
+  /* background-color: blue; */
   overflow: auto;
 }
 
@@ -206,7 +257,7 @@ body {
 }
 
 .deals-grid-items {
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
 }
 
 .deals-grid-items img {
@@ -218,18 +269,36 @@ body {
 /* FOOTER  */
 
 .footer {
-  background-color:gray;
+  font-size: 16px;
+}
+
+.top-footer {
+  background-color: #131313;
 }
 
 .social-flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .social-flex-container a {
   margin: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  border: 1.8px solid #333;
+}
+
+.links-container a {
+  margin: 10px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.social-flex-container a:hover {
+  background-color: black;
 }
 
 .links-container {
@@ -238,14 +307,14 @@ body {
   flex-wrap: wrap;
 }
 
-.links-container a {
-  margin: 10px;
-
-}
-
 .bottom-footer {
   text-align: center;
   padding: 20px 20%;
+  background-color: black;
+}
+
+.bottom-footer p {
+  color: #aaa;
 }
 
 .bottom-footer img {
@@ -255,7 +324,6 @@ body {
 /* MEDIA 768PX - 1023PX */
 
 @media only screen and (min-width: 768px) {
-  
   /* NAVIGATION BAR  */
 
   .nav-767 {
@@ -264,7 +332,7 @@ body {
 
   .nav-1023 {
     display: block;
-    background-color: wheat;
+    /* background-color: wheat; */
     height: 80px;
     width: 100%;
     position: fixed;
@@ -317,6 +385,7 @@ body {
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     grid-template-rows: repeat(3, minmax(auto, 1fr));
     gap: 20px;
+    margin-bottom: 80px;
   }
 
   .news-grid-container img {
@@ -358,10 +427,7 @@ body {
     height: auto;
     width: 100%;
     margin-bottom: 10px;
-    
   }
-  
-
 }
 
 /* *******  MEDIA + 1024PX ******** */
@@ -400,7 +466,6 @@ body {
   .eight-grid-container {
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     grid-template-rows: repeat(3, minmax(auto, 1fr));
-
   }
 
   /* LATEST DEALS  */
@@ -408,7 +473,5 @@ body {
   .deals-grid-container {
     grid-template-rows: repeat(2, minmax(auto, 1fr));
     grid-template-columns: repeat(4, minmax(auto, 1fr));
-   
   }
-
 }
