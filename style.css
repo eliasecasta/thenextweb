@@ -28,16 +28,36 @@ body {
 }
 
 .nav-container-767 {
-  /* background-color: aqua; */
+  background-color:white;
   display: flex;
   justify-content: space-between;
   height: 50%;
 }
 
+.nav-767 img {
+  height: 100%;
+  max-width: 80px;
+}
+
+.nav-container-767 a {
+  font-size: 23px;
+  color: #aaa;
+  border-left: 1px solid lightgray;
+  padding: 7px 10px;
+  line-height: 40px;
+}
+
+.nav-container-767 a:last-child {
+  color: #f42;
+}
+
 .nav-container-bottom {
-  background-color: yellow;
+  background-color: #ffdd33;
   height: 50%;
   overflow: hidden;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 40px;
 }
 
 .nav-1023 {
@@ -339,16 +359,40 @@ body {
     top: 0;
   }
 
+
   .logo-nav-1023 {
     float: left;
     height: 60px;
+  }
+  
+  .logo-nav-1023 img {
+    height: 100%;
+    width: auto;
   }
 
   .nav1-container-1023 {
     height: 25px;
     display: flex;
     justify-content: space-between;
+    background-color:black;
+    font-size: 14px;
+    
   }
+
+  .nav1-container-1023-left, .nav1-container-1023-right {
+    align-self: center;
+    padding-left: 20px;
+  }
+
+  .nav1-container-1023 a {
+    color: #6f6f6f;
+    text-decoration: none;
+    padding-right: 10px;
+  }
+  .nav1-container-1023 a:hover {
+    color: white;
+  }
+
 
   .nav2-container-1023 {
     height: 35px;
@@ -356,8 +400,35 @@ body {
     justify-content: space-between;
   }
 
+  .nav2-container-1023-left {
+    padding-left: 20px;
+     align-self: center;
+  }
+
+  .nav2-container-1023-left a {
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 14px;
+    padding-right: 10px;
+
+  }
+
+  .nav2-container-1023-left a:hover {
+    color: black;
+  }
+
+  .nav2-container-1023-right a {
+    font-size: 23px;
+    color: #aaa;
+    border-left: 1px solid lightgray;
+    padding: 5px 10px 2px 10px;
+    line-height: 40px;
+  }
+
   .nav-container-bottom {
-    height: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15%;
   }
 
   /* ******* MAIN GRID ******* */
