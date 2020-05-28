@@ -1,6 +1,5 @@
 body {
   background-color: rgb(170, 159, 180);
-  height: 6000px;
 }
 
 /* NAVIGATION BAR */
@@ -144,7 +143,6 @@ body {
   background-color: brown;
   width: 95%;
   margin: 0 auto;
-  /* height: 500px; */
   gap: 20px;
 }
 
@@ -189,9 +187,75 @@ body {
   text-decoration: none;
 }
 
+/* LATEST DEALS  */
+
+.latest-deal-container {
+  width: 95%;
+  margin: 50px auto;
+}
+
+.deals-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.deals-grid-container {
+  display: grid;
+  grid-template-rows: repeat(8, minmax(auto, 1fr));
+}
+
+.deals-grid-items {
+  background-color: rosybrown;
+}
+
+.deals-grid-items img {
+  height: 75px;
+  float: left;
+  margin-right: 13px;
+}
+
+/* FOOTER  */
+
+.footer {
+  background-color:gray;
+}
+
+.social-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.social-flex-container a {
+  margin: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links-container a {
+  margin: 10px;
+
+}
+
+.bottom-footer {
+  text-align: center;
+  padding: 20px 20%;
+}
+
+.bottom-footer img {
+  height: 15px;
+}
+
 /* MEDIA 768PX - 1023PX */
 
 @media only screen and (min-width: 768px) {
+  
   /* NAVIGATION BAR  */
 
   .nav-767 {
@@ -228,7 +292,7 @@ body {
     height: 20px;
   }
 
-  /* MAIN GRID  */
+  /* ******* MAIN GRID ******* */
 
   .main-grid-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -279,10 +343,28 @@ body {
 
   .eight-grid-container {
     grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-template-rows: repeat(4, minmax(auto, 1fr));
   }
+
+  /* LATEST DEALS  */
+
+  .deals-grid-container {
+    grid-template-rows: repeat(3, minmax(auto, 1fr));
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    gap: 20px;
+  }
+
+  .deals-grid-items img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  
+
 }
 
-/* MEDIA + 1024PX */
+/* *******  MEDIA + 1024PX ******** */
 
 @media only screen and (min-width: 1024px) {
   /* NAVIGATION BAR  */
@@ -317,5 +399,16 @@ body {
 
   .eight-grid-container {
     grid-template-columns: repeat(3, minmax(auto, 1fr));
+    grid-template-rows: repeat(3, minmax(auto, 1fr));
+
   }
+
+  /* LATEST DEALS  */
+
+  .deals-grid-container {
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+   
+  }
+
 }
