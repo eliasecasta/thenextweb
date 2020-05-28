@@ -41,6 +41,30 @@ p {
   line-height: 40px;
 }
 
+.tertiary-container a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.deals-grid-items a {
+  text-decoration: none;
+}
+
+.social-flex-container a {
+  margin: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  border: 1.8px solid #333;
+}
+
+.links-container a {
+  margin: 10px;
+  text-decoration: none;
+  color: #aaa;
+}
+
 .nav-container-767 a:last-child {
   color: #f42;
 }
@@ -62,7 +86,7 @@ p {
 /* MAIN GRID */
 
 .main-grid-container {
-  margin: 80px auto 0 auto;
+  margin: 81px auto 0 auto;
   display: grid;
   height: 100%;
   grid-template-rows: repeat(3, minmax(100px, 1fr));
@@ -85,12 +109,11 @@ p {
   bottom: 0;
   color: white;
   padding-top: 50px;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 80%
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
 }
 
 .main-grid-text * {
@@ -100,10 +123,6 @@ p {
 
 .main-grid-items h2 {
   font-size: 20px;
-}
-
-.news-title-container h2 {
-  font-size: large;
 }
 
 .main-grid-text h3 {
@@ -124,7 +143,7 @@ p {
 
 .news-title-container {
   width: 95%;
-  margin: 10% auto 4% auto;
+  margin: 60px auto 30px auto;
 }
 
 .news-title-container h2 {
@@ -139,7 +158,7 @@ p {
   grid-template-rows: repeat(8, minmax(auto, 1fr));
   height: auto;
   width: 95%;
-  margin: 0 auto 5% auto;
+  margin: 0 auto 60px auto;
 }
 
 .news-grid-items {
@@ -167,7 +186,7 @@ p {
 
 .funding-title-container {
   width: 95%;
-  margin: 0 auto 4% auto;
+  margin: 0 auto 30px auto;
   color: #f42;
   line-height: 2em;
 }
@@ -274,12 +293,11 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 80%
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
 }
 
 .text-main-img * {
@@ -305,16 +323,13 @@ p {
   width: 100%;
 }
 
-.secondary-container {
-  overflow: auto;
-}
-
 .secondary-container img {
   height: 96px;
   float: right;
 }
 
 .secondary-container {
+  overflow: auto;
   margin-top: 1px;
   color: #f42;
   background-color: #fff4f2;
@@ -338,11 +353,6 @@ p {
   list-style: disc;
   border-bottom: 1px solid #eee;
   line-height: 1.5em;
-}
-
-.tertiary-container a {
-  color: #6b6b6b;
-  text-decoration: none;
 }
 
 /* LATEST DEALS  */
@@ -377,10 +387,6 @@ p {
   padding: 5px;
 }
 
-.deals-grid-items a {
-  text-decoration: none;
-}
-
 .deals-grid-items h3 {
   color: black;
   font-size: 14px;
@@ -413,21 +419,6 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.social-flex-container a {
-  margin: 20px;
-  background-color: #333;
-  border-radius: 50%;
-  padding: 10px;
-  color: white;
-  border: 1.8px solid #333;
-}
-
-.links-container a {
-  margin: 10px;
-  text-decoration: none;
-  color: #aaa;
 }
 
 .social-flex-container a:hover {
@@ -501,6 +492,21 @@ p {
     padding-right: 10px;
   }
 
+  .nav2-container-1023-left a {
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+
+  .nav2-container-1023-right a {
+    font-size: 23px;
+    color: #aaa;
+    border-left: 1px solid lightgray;
+    padding: 5px 10px 2px 10px;
+    line-height: 40px;
+  }
+
   .nav1-container-1023 a:hover {
     color: white;
   }
@@ -517,23 +523,8 @@ p {
     align-self: center;
   }
 
-  .nav2-container-1023-left a {
-    text-decoration: none;
-    color: #a9a9a9;
-    font-size: 14px;
-    padding-right: 10px;
-  }
-
   .nav2-container-1023-left a:hover {
     color: black;
-  }
-
-  .nav2-container-1023-right a {
-    font-size: 23px;
-    color: #aaa;
-    border-left: 1px solid lightgray;
-    padding: 5px 10px 2px 10px;
-    line-height: 40px;
   }
 
   .nav-container-bottom {
@@ -547,6 +538,7 @@ p {
   .main-grid-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
+    margin: 92px auto 0 auto;
   }
 
   .main-grid-item1 h2 {
