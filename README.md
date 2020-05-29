@@ -5,7 +5,22 @@
 <<<<<<< HEAD
 Small view:
 
+<<<<<<< HEAD
+![screenshot](./assets/images/sssmall.png)
+=======
+<<<<<<< HEAD
+![screenshot](./assets/images/sssmall.png)
+
+Medium view:
+
+![screenshot](./assets/images/ssmid.png)
+
+Big view:
+
+![screenshot](./assets/images/ssbig.png)
+=======
 ![screenshot](./assets/sssmall.png)
+>>>>>>> development
 
 Medium view:
 
@@ -13,10 +28,18 @@ Medium view:
 
 Big view:
 
+<<<<<<< HEAD
+![screenshot](./assets/images/ssbig.png)
+=======
 ![screenshot](./assets/ssbig.png)
+<<<<<<< HEAD
 =======
 ![screenshot](./assets/screenshot.jpeg)
 >>>>>>> parent of a510ccf... Added size screenshots and readme
+=======
+>>>>>>> development
+>>>>>>> development
+>>>>>>> development
 
 ## Demo Link
 
