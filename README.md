@@ -1,14 +1,9 @@
 # Smashing Magazine
 
- The aim of this project is to play with background colors to achieve a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) site.
+The aim of this project is to play with background colors to achieve a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) site.
 
-<<<<<<< HEAD
 Small view:
 
-<<<<<<< HEAD
-![screenshot](./assets/images/sssmall.png)
-=======
-<<<<<<< HEAD
 ![screenshot](./assets/images/sssmall.png)
 
 Medium view:
@@ -18,28 +13,6 @@ Medium view:
 Big view:
 
 ![screenshot](./assets/images/ssbig.png)
-=======
-![screenshot](./assets/sssmall.png)
->>>>>>> development
-
-Medium view:
-
-![screenshot](./assets/ssmid.png)
-
-Big view:
-
-<<<<<<< HEAD
-![screenshot](./assets/images/ssbig.png)
-=======
-![screenshot](./assets/ssbig.png)
-<<<<<<< HEAD
-=======
-![screenshot](./assets/screenshot.jpeg)
->>>>>>> parent of a510ccf... Added size screenshots and readme
-=======
->>>>>>> development
->>>>>>> development
->>>>>>> development
 
 ## Demo Link
 
