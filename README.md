@@ -4,6 +4,10 @@ The goal of this project was to learn about responsive media queries and to appl
 
 Small view:
 
+<<<<<<< HEAD
+![screenshot](./assets/images/sssmall.png)
+=======
+<<<<<<< HEAD
 ![screenshot](./assets/images/sssmall.png)
 
 Medium view:
@@ -13,6 +17,22 @@ Medium view:
 Big view:
 
 ![screenshot](./assets/images/ssbig.png)
+=======
+![screenshot](./assets/sssmall.png)
+>>>>>>> development
+
+Medium view:
+
+![screenshot](./assets/ssmid.png)
+
+Big view:
+
+<<<<<<< HEAD
+![screenshot](./assets/images/ssbig.png)
+=======
+![screenshot](./assets/ssbig.png)
+>>>>>>> development
+>>>>>>> development
 
 ## Demo Link
 
