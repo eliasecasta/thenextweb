@@ -10,6 +10,14 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: unset;
+}
+
 /* NAVIGATION BAR */
 
 .nav-767 {
