@@ -121,11 +121,12 @@ a:visited {
   bottom: 0;
   color: white;
   padding-top: 50px;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 80%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 80%
+    );
 }
 
 .main-grid-text * {
@@ -305,11 +306,12 @@ a:visited {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 80%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 80%
+    );
 }
 
 .text-main-img * {
@@ -631,9 +633,6 @@ a:visited {
 
   .logo-nav-1023 {
     display: none;
-    /* position: absolute;
-    margin-top: 92px;
-    margin-left: 1%; */
   }
 
   .nav-container-bottom {
@@ -645,22 +644,15 @@ a:visited {
   .main-grid-item1 .tnw-logo-grid3 {
     display: flex;
     position: absolute;
-    /* margin-top: 92px;
-    margin-left: 1%; */
     padding: 2% 48% 41% 2%;
-    /* padding-left: 2%;
-    padding-top: 2%; */
-    /* align-self: flex-start; */
-    /* height: 50px; */
     width: 50%;
     height: auto;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
-
-    background: linear-gradient(
-      135deg,
-      rgb(238, 61, 91) 0%,
-      rgba(125, 185, 232, 0) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background:
+      linear-gradient(
+        135deg,
+        rgb(238, 61, 91) 0%,
+        rgba(125, 185, 232, 0) 100%
+      );
   }
 
   .main-grid-item1 h2 {
