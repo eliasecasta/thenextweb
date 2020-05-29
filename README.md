@@ -1,22 +1,22 @@
-# Smashing Magazine
+# The Next Web
 
-The aim of this project is to play with background colors to achieve a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) site.
+The goal of this project was to learn about responsive media queries and to apply them to create 3 different web views [The Next Web](https://thenextweb.com/) site.
 
 Small view:
 
-![screenshot](./assets/images/sssmall.png)
+![screenshot](./assets/sssmall.png)
 
 Medium view:
 
-![screenshot](./assets/images/ssmid.png)
+![screenshot](./assets/ssmid.png)
 
 Big view:
 
-![screenshot](./assets/images/ssbig.png)
+![screenshot](./assets/ssbig.png)
 
 ## Demo Link
 
-[Live Demo Link](https://raw.githack.com/epinczinger/smashing_magazine/design/index.html).
+[Live Demo Link](https://raw.githack.com/e71az/thenextweb/development/index.html).
 
 ## Built With
 
@@ -42,7 +42,7 @@ Big view:
 To get a local copy up and running follow these simple example steps.
 
 1. Open the terminal comand line window
-2. `git clone https://github.com/epinczinger/smashing_magazine.git`
+2. `git clone https://github.com/e71az/thenextweb.git`
 3. Open the index.html with your favorite browser
 4. Enjoy!
 
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [Issue page](https://github.com/epinczinger/smashing_magazine/issues).
+Feel free to check the [Issue page](https://github.com/e71az/thenextweb/issues).
 
 ## Show your support
 
